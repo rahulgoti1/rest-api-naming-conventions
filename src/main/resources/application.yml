@@ -11,3 +11,10 @@ spring:
     username: root
     password: root
     driver: com.mysql.cj.jdbc.Driver
+sqs:
+  queue:
+    url: https://sqs.us-west-2.amazonaws.com/xxxxxxxxx/xxxx_name_xxxxx
+aws:
+  region: us-west-2
+  accessKeyId:
+  accessKeySecret:
